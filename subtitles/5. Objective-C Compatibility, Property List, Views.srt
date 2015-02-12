@@ -1464,7 +1464,7 @@ And I'm just gonna add a var here.
 301
 00:12:42,321 --> 00:12:43,887
 A public var.
-一个共有的 var。
+一个 public var。
 
 302
 00:12:43,889 --> 00:12:44,554
@@ -1478,12 +1478,12 @@ Called program, and
 304
 00:12:45,924 --> 00:12:49,225
 it's gonna be type AnyObject, but I'm gonna put comment here
-这个会是 AnyObject 类型，但我要在这注释下，
+这个是 AnyObject 类型，但我要在这注释下，
 
 305
 00:12:49,227 --> 00:12:53,595
 that says guaranteed to be a Property List.
-要保证是个属性列表。
+注释“属性列表”。
 
 306
 00:12:53,597 --> 00:12:56,965
@@ -1513,17 +1513,17 @@ you can do it.
 311
 00:13:05,708 --> 00:13:06,673
 So, they could do that with it,
-他们可以那样做。
+代码可以这么写。
 
 312
 00:13:06,675 --> 00:13:09,375
 cuz they know it's a Property List, okay?
-他们知道它是个属性列表。
+系统知道它是个属性列表。
 
 313
 00:13:09,377 --> 00:13:13,346
 So, this is going to be a computed property.
-会有一个被计算的属性。
+并且 ，自动生成属性。
 
 314
 00:13:13,348 --> 00:13:15,948
@@ -1553,7 +1553,7 @@ And when you set, we're gonna take that Property List and
 319
 00:13:23,523 --> 00:13:27,057
 turn it back into our private representation.
-把它放回我们的私有代表。
+作为私有。
 
 320
 00:13:28,060 --> 00:13:29,259
@@ -1573,7 +1573,7 @@ because this is really our internal data structure here,
 323
 00:13:36,734 --> 00:13:39,801
 it's Array of op, op is an enum,
-是个 op 数据，op 是枚举类型，
+是个 op 数组，op 是枚举类型，
 
 324
 00:13:39,803 --> 00:13:43,871
@@ -1999,7 +1999,7 @@ if I could turn that String into an operand, and I'm gonna
 
 409
 00:18:04,164 --> 00:18:09,166
-do that with if let operand equal NSNumberFormatter.
+do that with “if let operand equal NSNumberFormatter”.
 这里我可以输入 if let operand = NSNumberFormatter()
 
 410
